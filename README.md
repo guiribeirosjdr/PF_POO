@@ -18,7 +18,7 @@ A estrutura do projeto é a seguinte:
 - `gui`: Contém as interfaces gráficas para gerenciar as diversas áreas do sistema.
 - `main.py`: Arquivo principal para execução do sistema.
 - `diagrama UML`: Arquivo com o diagrama UML do sistema.
-- 
+  
 ## Funcionalidades
 
 1. **Gestão de Alunos**
