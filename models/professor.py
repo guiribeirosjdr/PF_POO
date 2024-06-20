@@ -1,7 +1,8 @@
-class Professor:
+from models.pessoa import Pessoa  # Importa a classe Pessoa do módulo models.pessoa para utilizar como superclasse.
+
+class Professor(Pessoa):
     def __init__(self, nome, idade, disciplinas, email):
-        self.nome = nome  # Nome do professor.
-        self.idade = idade  # Idade do professor.
+        super().__init__(nome, idade)  # Chama o construtor da superclasse Pessoa.
         self.disciplinas = disciplinas  # Lista de disciplinas que o professor leciona.
         self.email = email  # Email do professor.
 
