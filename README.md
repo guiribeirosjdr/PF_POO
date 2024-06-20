@@ -4,7 +4,7 @@ Bem-vindo ao Sistema de Gestão Escolar! Este sistema foi desenvolvido para gere
 
 ## Autores
 - Guilherme Augusto Ribeiro da Silva - 2023427503
-- Arthur Rangel Carvalho - 
+- Arthur Rangel Carvalho - 2024421622
 
 ## Visão Geral
 
@@ -17,7 +17,8 @@ A estrutura do projeto é a seguinte:
 - `models`: Contém as classes de modelo para Aluno, Professor, Funcionário, Turma, Sala, Curso, Matéria Optativa, Atividade Extracurricular, Campeonato, Comunicação com os Pais, Biblioteca, Segurança, Inventário, Evento, Financeiro, Pessoa e Persistence.
 - `gui`: Contém as interfaces gráficas para gerenciar as diversas áreas do sistema.
 - `main.py`: Arquivo principal para execução do sistema.
-
+- `diagrama UML`: Arquivo com o diagrama UML do sistema.
+- 
 ## Funcionalidades
 
 1. **Gestão de Alunos**
@@ -76,6 +77,14 @@ A estrutura do projeto é a seguinte:
 14. **Gestão Financeira**
     - Registro de receitas e despesas.
     - Listagem de informações financeiras.
+
+14. **Gestão de Reservas de Salas**
+    - Registro de reservas de salas e verificação de disponibilidade.
+    - Listagem de informações sobre as reservas.
+
+16. **Gestão de Cursos**
+    - Registro de cursos e carga horária.
+    - Listagem de informações sobre os cursos.
 
 ## Como Executar
 
