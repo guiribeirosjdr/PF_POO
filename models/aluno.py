@@ -1,10 +1,10 @@
-class Aluno:
+from models.pessoa import Pessoa  # Importa a classe Pessoa do módulo models.pessoa para utilizar como superclasse.
+
+class Aluno(Pessoa):
     def __init__(self, nome, idade, matricula, email):
-        # Inicializa um aluno com informações básicas e estruturas para armazenar notas e presenças.
-        self.nome = nome
-        self.idade = idade
-        self.matricula = matricula
-        self.email = email
+        super().__init__(nome, idade)  # Chama o construtor da superclasse Pessoa.
+        self.matricula = matricula  # Matrícula do aluno.
+        self.email = email  # Email do aluno.
         self.notas = []  # Lista para armazenar notas.
         self.total_aulas = 0  # Contador de aulas para cálculo de frequência.
         self.presencas = 0  # Contador de presenças.
